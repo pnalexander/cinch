@@ -1,4 +1,4 @@
-# pnalexander.github.io/cinch
+# Cinch
 
 ## Standard Workflow/Directory Template ##
     |- core/
