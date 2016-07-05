@@ -1,0 +1,56 @@
+html {
+  font-family: 'Oxygen';
+  font-weight: 300;
+}
+.main {
+  min-height: 100vh;
+  background: yellow;
+  h1 {
+    font-size: 5em;
+    font-family: 'Sirin Stencil';
+  }
+  .desc {
+    font-size: 2em;
+    p {
+      padding: .5em;
+    }
+  }
+  .get-cinch {
+    font-size: .75em;
+    // border: 1px solid #6940FF;
+    &:hover {
+      box-shadow: 0 0 .15em .05em #6940FF;
+    }
+  }
+}
+.demo {
+  padding: 2em;
+  .box {
+    background: rgba(0,0,0,0.1);
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    padding: 1em;
+    overflow: hidden;
+  }
+  h1 {
+    font-size: 1em;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 1px;
+  }
+  h2 {
+    padding-bottom: 1em;
+    &:last-of-type {
+      padding-bottom: 0;
+      padding-top: 1em;
+    }
+  }
+}
+.images {
+  padding: 2em;
+  background: #59993D;
+  h2 {
+    padding-bottom: 1em;
+  }
+}
